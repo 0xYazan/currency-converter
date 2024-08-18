@@ -1,4 +1,4 @@
-// currency converter By : 0xYazan 
+// currency converter By : 0xYazan
 
 import java.util.Scanner;
 public class Main {
@@ -25,7 +25,7 @@ public class Main {
                 System.out.println("(1) EURO \n(2) USD \n(3) JPY");
                 currencyTo = scanner.nextInt();
 
-                System.out.println("Enter the amount in Saudi Riyals:");
+                System.out.print("Enter the amount in Saudi Riyals: ");
                 initialAmount = scanner.nextFloat();
 
                 switch(currencyTo){
@@ -60,7 +60,7 @@ public class Main {
                 System.out.println("(1) SAR \n(2) USD \n(3) JPY");
                 currencyTo = scanner.nextInt();
 
-                System.out.println("Enter the amount in Euros:");
+                System.out.print("Enter the amount in Euros: ");
                 initialAmount = scanner.nextFloat();
 
                 switch(currencyTo){
@@ -96,7 +96,7 @@ public class Main {
                 System.out.println("(1) SAR \n(2) EURO \n(3) JPY");
                 currencyTo = scanner.nextInt();
 
-                System.out.println("Enter the amount in U.S. Dollars:");
+                System.out.print("Enter the amount in U.S. Dollars: ");
                 initialAmount = scanner.nextFloat();
 
                 switch(currencyTo){
@@ -131,7 +131,7 @@ public class Main {
                 System.out.println("(1) SAR \n(2) EURO \n(3) USD");
                 currencyTo = scanner.nextInt();
 
-                System.out.println("Enter the amount in Japanese Yen:");
+                System.out.print("Enter the amount in Japanese Yen: ");
                 initialAmount = scanner.nextFloat();
 
                 switch(currencyTo){
